@@ -34,3 +34,62 @@ input {
   height: 0;
   line-height: 0;
 }
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: #fff;
+  padding: 30px 0;
+}
+header main {
+  display: flex;
+  justify-content: space-between;
+}
+header main .logo {
+  width: 200px;
+}
+header main .logo h1 {
+  font-size: 0;
+}
+header main .nav {
+  margin: 0 90px 0 70px;
+  font-size: 18px;
+  color: #050505;
+}
+header main .nav ul {
+  display: flex;
+}
+header main .nav ul li {
+  padding: 8px;
+  margin-right: 27px;
+}
+header main .nav ul .active {
+  border-bottom: 2px solid #00a4ff;
+}
+header main .search {
+  position: relative;
+  width: 410px;
+  height: 40px;
+  border: 1px solid #00a4ff;
+  border-right: 0;
+}
+header main .search > input {
+  width: 360px;
+  height: 40px;
+  text-indent: 18px;
+  color: #bfbfbf;
+}
+header main .search > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+header main .user {
+  margin-left: 30px;
+  color: #666;
+}
+header main .user img {
+  border-radius: 50%;
+  vertical-align: middle;
+}

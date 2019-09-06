@@ -1,1 +1,81 @@
 @import './base.less';
+
+// 版心大小
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+// 头部样式开始
+header {
+    // height: 100px;
+    background-color: #fff;
+    padding: 30px 0;
+    // line-height: 100px;
+
+    main {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 200px;
+
+            h1 {
+                font-size: 0;
+            }
+        }
+
+        .nav {
+            margin: 0 90px 0 70px;
+            font-size: 18px;
+            color: #050505;
+
+            ul {
+                display: flex;
+
+                li {
+                    padding: 8px;
+                    margin-right: 27px;
+                }
+                .active {
+                    border-bottom: 2px solid #00a4ff;
+                }
+            }
+        }
+
+        .search {
+            position: relative;
+            width: 410px;
+            height: 40px;
+            border: 1px solid #00a4ff;
+            border-right: 0;
+
+            >input {
+                width: 360px;
+                height: 40px;
+                text-indent: 18px;
+                color:#bfbfbf;
+
+            }
+
+            >img {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+
+        }
+
+        .user {
+            margin-left: 30px;
+            color: #666;
+
+            img {
+                border-radius: 50%;
+                vertical-align: middle;
+            }
+        }
+
+    }
+}
