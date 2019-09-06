@@ -93,3 +93,25 @@ header main .user img {
   border-radius: 50%;
   vertical-align: middle;
 }
+.banner {
+  background: #1c036c;
+}
+.banner main {
+  background: url('../images/banner2.png') center no-repeat;
+  height: 421px;
+}
+.banner main .navLeft {
+  padding: 26px 20px;
+  width: 190px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.banner main .navLeft ul li {
+  line-height: 41px;
+}
+.banner main .navLeft ul li > span {
+  float: right;
+}
+.banner main .navLeft ul li:hover {
+  color: #00b4ff;
+}
