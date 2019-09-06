@@ -5,6 +5,9 @@
     width: 1200px;
     margin: 0 auto;
 }
+body {
+    background-color: #f3f5f7;
+}
 
 // 头部样式开始
 header {
@@ -159,6 +162,37 @@ header {
         }
     }
     
+}
+
+
+// 精品推荐样式开始
+.record {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
+    margin-top: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #050505;
+    box-shadow: 2px 3px 2px #eee;
+    ul {
+        display: flex;
+        li {
+            padding: 0 35px;
+            border-right: 1px solid #bfbfbf;
+            &:last-child {
+                border-right: 0;
+            }
+        }
+        .active {
+            color: #00a4ff;
+        }
+    }
+    a {
+        margin-right: 25px;
+        font-size: 14px;
+        color: #00a4ff;
+    }
 }
 
 

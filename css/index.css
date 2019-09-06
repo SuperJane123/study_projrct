@@ -38,6 +38,9 @@ input {
   width: 1200px;
   margin: 0 auto;
 }
+body {
+  background-color: #f3f5f7;
+}
 header {
   background-color: #fff;
   padding: 30px 0;
@@ -163,4 +166,32 @@ header main .user img {
 .banner main .myClass .content .allclass > a {
   color: #00a4ff;
   font-size: 16px;
+}
+.record {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 0;
+  margin-top: 10px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #050505;
+  box-shadow: 2px 3px 2px #eee;
+}
+.record ul {
+  display: flex;
+}
+.record ul li {
+  padding: 0 35px;
+  border-right: 1px solid #bfbfbf;
+}
+.record ul li:last-child {
+  border-right: 0;
+}
+.record ul .active {
+  color: #00a4ff;
+}
+.record a {
+  margin-right: 25px;
+  font-size: 14px;
+  color: #00a4ff;
 }
